@@ -1,0 +1,77 @@
+body{
+font-family: 'Quicksand', sans-serif;
+}
+.form{
+    background-image: url(/images/background.png);
+    height: 600px;
+    width: 800px;
+    position: fixed;
+}
+.form-box{
+    background-image: url(/images/Vector\ Smart\ Object.png);
+    width: 400px;
+    height: 496px;
+    margin-top: 52px;
+    margin-left: 200px;
+}
+.form-box_txt{
+    display: flex;
+    padding-top: 47px;
+    padding-left: 70px; 
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.form-box_txt_join{
+    padding-left: 28px;
+}
+.form-box_info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    max-width: 260px;
+    margin-left: 70px;
+    color: white;
+    font-weight: 700;
+}
+.form-box_info_input{
+    background: transparent;
+    border: none;
+    border: 1px solid #fff;
+    height: 42px;
+}
+.form-box_info_but{
+    background-color: #23AE92;
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    height: 42px;
+    border: none;
+}
+a{
+text-decoration: none;
+color: white;
+}
+.form-box_ah{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px ;
+}
+.form-box_ahс{
+    padding: 25px;
+    font-size: 13px;
+}
+.form-box_txt :hover{
+    opacity: 1;
+    opacity: 0.7;
+    padding-bottom: 4px;
+    border-bottom: solid 3px rgb(192, 95, 95);
+}
+.form-box_ahсb :hover{
+    border-bottom: solid 3px rgb(255, 255, 255);
+    border-width: 2px;
+}
+.form-box_ahсc :hover{
+    border-bottom: solid 3px rgb(255, 255, 255);
+    border-width: 2px;
+}
